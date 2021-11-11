@@ -20,9 +20,15 @@
 
 <body class="theme-blush">
 
+{% include 'userms/common_html/main_css.html' %}
+<!-- right_icon_menu_sidebar.html -->
 
+{% include 'userms/common_html/right_icon_menu_sidebar.html' %}
+<!-- left_sidebar.html -->
+{% include 'userms/common_html/left_sidebar.html' %}
 
-
+<!-- right_sidebar.html -->
+{% include 'userms/common_html/right_sidebar.html'%}
 <section class="content">
     <div class="block-header">
         <div class="row">
@@ -377,7 +383,7 @@
     </div>
 </section>
 
-
+{% include 'userms/common_html/main_js.html' %}
 
 </body>
 </html>
